@@ -1,38 +1,33 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+html, 
+body{
+  font-size: 18px;
+  background-color: f5f6f7;
+}
+h1{
+  font-size: 2.5em;/*em es un factor relativo al tamaño de la letra de su contenedor ejemplo si su contenedor digamos tiene 10px em va a ser 2.2 veces ese valor*/
+  max-width: 940px;/* ancho máximo*/
+  font-family: Lato, sans-serif;/* el tipo de letra será lato y si el navegador no reconoce este tipo de letras será sans-serif*/
+  font-weight: 700; /* el peso o ancho de la letra sera 700*/
+  line-height: 1.1; /* altura de la linea sera 1.1 para que alla una separación visible entre las lineas*/
+  margin: 40px 0;/* 40 de margensuperior e inferior y 0 margen izquierdo y derecho*/
+}
+
+.App{
+  min-height: 100vh;/* altura minima  vh para que se adacte a la altura del navegador es decir para que la aplicacion tpme como minimo el 100% de la aplicación*/
+  display: flex; /* para definir como se van a ubicar los distintos elementos dentro del contenedor*/
+  flex-wrap: wrap;/*  si un ellemento toma el ancho del contemedor los demás elementos se van a ubicar en la siguiente linea*/
+  align-items: center;/*aliniearb los items en el centro*/
+  justify-content: center; /*para centrarlos horizontalmaente*/
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pagEncuestas{
+  min-height: 600px; /*para que se adapte al tamaño hay que colocar min*/
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-wrap: wrap;/*  si un ellemento toma el ancho del contemedor los demás elementos se van a ubicar en la siguiente linea*/
+  align-items: center;/*aliniearb los items en el centro*/
+  justify-content: center; /*para centrarlos horizontalmaente*/
 }

@@ -1,0 +1,40 @@
+.contenedorEnduestas{
+    width: 1170px;
+    height: 368px;
+    margin: 10px, 10px,50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);/*sombreado de cuadro o div*/
+}
+.imagen-encuestado{
+    height: 100%;
+    width: auto;
+    
+}
+.contenedorEnduestas {
+    text-align: center;  
+    width: 100%;
+    font-family: 18px;
+    padding: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+  
+ .nombreUbicación {
+    font-size: 1.3rem;
+  }
+  
+  .profesión {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+  }
+  
+  .comentaraio {
+    margin: 10px;
+    font-size: 1.1rem;
+    text-align: justify;
+  } 
